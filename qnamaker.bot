@@ -12,11 +12,11 @@
         },
         {
             "type": "endpoint",
-            "appId": "bedb5826-e28c-444d-87b9-fb9116571af3",
-            "appPassword": "A)*nKsLHA85)Df=0H$8_IQZj",
-            "endpoint": "https://jf-qna-bot.azurewebsites.net/api/messages",
+            "appId": "57dc8b81-13d9-43d2-ab99-63b4876b1277",
+            "appPassword": "2O9pg^pMgR@mwV-[G!Bi%l(grv|GNU",
+            "endpoint": "https://jf-qnajs.azurewebsites.net/api/messages",
             "name": "production",
-            "id": "2"
+            "id": "4"
         },
         {
             "type": "qna",
