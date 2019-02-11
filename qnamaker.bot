@@ -8,7 +8,7 @@
             "endpoint": "http://localhost:3978/api/messages",
             "appId": "",
             "appPassword": "",
-            "id": "1"
+            "id": "3"
         },
         {
             "type": "endpoint",
@@ -25,6 +25,36 @@
             "endpointKey": "5749769f-3e88-47fe-870b-efc245b8c876",
             "hostname": "https://jf-qna-service.azurewebsites.net/qnamaker",
             "id": "227"
+        },
+        {
+            "type": "abs",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "174c5021-8109-4087-a3e2-a1de20420569",
+            "resourceGroup": "jf-resourceGroup",
+            "serviceName": "jf-qnaJs",
+            "name": "jf-qnaJs",
+            "id": "1",
+            "appId": "57dc8b81-13d9-43d2-ab99-63b4876b1277"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=jfqnajs9e71;AccountKey=6VxHh9eSzDHVTx9JHvFsoziKkQ+Sd1GaFzuD8AG53SR1NftrGlCUKl7h8gMJDukclWZTxzX6IVbGVY6Oii1e7Q==;",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "174c5021-8109-4087-a3e2-a1de20420569",
+            "resourceGroup": "jf-resourceGroup",
+            "serviceName": "jfqnajs9e71",
+            "id": "2"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "5babfff8-593b-4fbb-8cc0-ad7cb87c5cc3",
+            "applicationId": "d17076b1-b65d-4960-bc9a-0101176b221d",
+            "apiKeys": {},
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "174c5021-8109-4087-a3e2-a1de20420569",
+            "resourceGroup": "jf-resourceGroup",
+            "serviceName": "jf-qnaJshtm3j2",
+            "id": "5"
         }
     ],
     "padlock": "",
