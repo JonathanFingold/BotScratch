@@ -1,0 +1,32 @@
+{
+    "name": "qnamaker",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "endpoint",
+            "appId": "bedb5826-e28c-444d-87b9-fb9116571af3",
+            "appPassword": "A)*nKsLHA85)Df=0H$8_IQZj",
+            "endpoint": "https://jf-qna-bot.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "2"
+        },
+        {
+            "type": "qna",
+            "name": "qnamakerService",
+            "kbId": "71a14685-40c4-4b58-bec6-fc4fd0b4deeb",
+            "endpointKey": "5749769f-3e88-47fe-870b-efc245b8c876",
+            "hostname": "https://jf-qna-service.azurewebsites.net/qnamaker",
+            "id": "227"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
