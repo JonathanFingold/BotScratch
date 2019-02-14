@@ -36,7 +36,7 @@ const DEV_ENVIRONMENT = 'development';
 const BOT_CONFIGURATION = (process.env.NODE_ENV || DEV_ENVIRONMENT);
 
 // QnA Maker service name as specified in .bot file.
-const QNA_CONFIGURATION = 'qnamakerService';
+const QNA_CONFIGURATION = 'jf-qna-kb';
 
 // Get endpoint and QnA Maker configurations by service name.
 const endpointConfig = botConfig.findServiceByNameOrId(BOT_CONFIGURATION);
